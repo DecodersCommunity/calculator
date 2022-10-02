@@ -57,11 +57,11 @@ transform: scale(1.05);
 }
 .text-center{
   text-align: center;
-  font-family: 'Blaka', cursive;
-font-family: 'Inter', sans-serif;
+/*   font-family: 'Blaka', cursive; */
+/* font-family: 'Inter', sans-serif; */
 font-family: 'Lato', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Passion One', cursive;
+/* font-family: 'Oswald', sans-serif; */
+/* font-family: 'Passion One', cursive; */
 font-size: xx-large;
 margin-bottom: -50px;
 margin-top: 60px;
