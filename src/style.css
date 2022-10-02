@@ -1,77 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
-html, body {
-  height: 100%;
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+.container{
+  background-color: #fff;
+  padding: 15px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: rgb(0 0 0 / 10%) 0px 1px 2px, rgb(0 0 0 / 8%) 0px 2px 8px;
+}
+
+.row{
   width: 100%;
-  font-family: 'Roboto', sans-serif; 
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 10px; */
+}
+
+.input{
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 30px;
+  background-color: rgba(195, 217, 238, 0.739);
+}
+
+.input:focus{
+  outline: none;
+}
+
+.row:nth-of-type(2) .button{
+  color: orange;
 }
 
 .button{
-  width: 66px;
-  height: 45px;
-  padding: 20px;
-  background-color: #a8c6fe;
-  margin: 0 3px;
-  border: 2px solid #444444;
-  border-radius: 9px;
-  cursor: pointer;
-  box-shadow: 7px 5px 15px rgba(153, 63, 63, 0.5), -7px -5px 15px rgba(35, 40, 202, 0.5);
-  font-family: 'Blaka', cursive;
-font-family: 'Inter', sans-serif;
-font-family: 'Lato', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Passion One', cursive;
-font-size: large;
-}
-.button:hover{
-  transform: scale(1.05);
-  transition: ease-in-out 0.13s;
-}
-.row{
-  margin: 8px 0;
-}
-.row input:hover{
-transform: scale(1.05);
-  transition: ease-in-out 0.13s;
-}
-.rowf{
-  margin: 60px;
-  border: 4px solid #232323;
-  border-radius: 8px;
-}
-.row input{
-  position: relative;
-  left:3px;
-  width: 291px;
-  font-size: 20px;
-    margin: 0;
-    padding: 10px 0px 10px 10px;
-    border: 2px solid black;
-    border-radius: 5px;
-  box-shadow: 7px 5px 15px rgba(153, 63, 63, 0.3), -7px -5px 15px rgba(35, 40, 202, 0.3);
-}
-.text-center{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
   text-align: center;
-  font-family: 'Blaka', cursive;
-font-family: 'Inter', sans-serif;
-font-family: 'Lato', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Passion One', cursive;
-font-size: xx-large;
-}
-body{
-  background: #3a88fe;
-}
-.mx-auto{
-  margin: auto;
+  border: none;
+  font-size: 30px;
+  background-color: transparent;
 }
 
-.flex{
-  display:flex;
-} 
-.flex-col{
-  flex-direction: column;
+.button:active{
+  background-color: whitesmoke;
 }
 
-.items-center{
-  align-items: center;
+.button:nth-last-child(1){
+  color: orange;
 }
