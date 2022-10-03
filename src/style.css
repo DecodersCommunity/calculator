@@ -3,7 +3,11 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: 'Roboto', sans-serif; 
-}
+} 
+
+/* body{
+  background-image: url("res/gradient.png");
+} */
 
 .button{
   width: 66px;
