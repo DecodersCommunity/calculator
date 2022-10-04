@@ -2,6 +2,8 @@ let string = "";
 let buttons = document.querySelectorAll('.button');
 Array.from(buttons).forEach((button)=>{
   button.addEventListener('click', (e)=>{
+    var audio=new Audio("click.mp3");
+    audio.play();
     if(e.target.innerHTML == '='){
       string = eval(string);
       document.querySelector('input').value = string;
@@ -17,3 +19,5 @@ Array.from(buttons).forEach((button)=>{
       }
   })
 })
+
+
