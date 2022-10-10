@@ -6,30 +6,20 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Calculate me! - A calculator made my me</title>
+  <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
   <link href="style.css" rel="stylesheet" type="text/css" />
-<!--   <link href="utils.css" rel="stylesheet" type="text/css" /> -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Blaka&family=Lato:ital,wght@1,900&family=Oswald&family=Passion+One&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Blaka&family=Inter:wght@100&family=Lato:ital,wght@1,900&family=Oswald&family=Passion+One&display=swap"
-        rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Blaka&family=Inter:wght@100&family=Lato:ital,wght@1,900&family=Oswald&family=Passion+One&display=swap" rel="stylesheet">
-</head>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
-<body>
-  <!-- <h1 class="text-center">Calculator App</h1> -->
-  <div class="container">
+<body id="body">
+  <div class="title">
+    <h1 class="text-center">Calculator App</h1>
+    <button class="mute" id="mute">🔇</button>
+  </div>
+  <div class="container flex flex-col items-center mx-auto m-w-20">
     <div class="rowf">
     
     <div class="row">
-      <input class="input" type="text"/>
+      <input class="input" id="input" type="text" pattern="[0-9-/()%*+-M]*" autofocus/>
     </div>
     
     <div class="row">
@@ -62,6 +52,7 @@
       <button class="button">=</button>
       <button class="button">-</button>
     </div>
+    <!-- <p style="margin-top: 30px; color: white;">Made with ❣️ by Decoders Community</p> -->
       </div>
   </div>
   <script src="script.js"></script>
