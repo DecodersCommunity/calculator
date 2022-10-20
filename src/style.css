@@ -5,7 +5,7 @@ html, body {
   font-family: 'Open Sans', sans-serif;
 }
 body{
-  background: #88aabf;
+  background: #F8C4B4;
 }
 h1{
   letter-spacing: 3px;
@@ -22,7 +22,7 @@ h1{
   margin-bottom: 40%;
 }
 .button{
-  width: 66px;
+  width: 68px;
   height: 45px;
   margin: 0 3px;
   cursor: pointer;
@@ -65,7 +65,7 @@ transform: scale(1.05);
   border: none;
   border-radius: 3px;
   margin-bottom: 1.5rem;
-  height: 35px;
+  height: 40px;
   width: 280px;
 }
 .text-center{
