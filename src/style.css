@@ -15,8 +15,8 @@ h1{
   font-size: 2.5rem;
 }
 #mute {
-  width: 66px;
-  height: 45px;
+  width: 70px;
+  height: 50px;
   margin-left: 90%;
   position:absolute;
   margin-bottom: 40%;
@@ -65,8 +65,8 @@ transform: scale(1.05);
   border: none;
   border-radius: 3px;
   margin-bottom: 1.5rem;
-  height: 35px;
-  width: 280px;
+  height: 40px;
+  width: 3000px;
 }
 .text-center{
   text-align: center;
