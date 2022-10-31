@@ -5,7 +5,7 @@ const audio = new Audio('../assets/keyPressClick.mp3');
 
 var play=true;
 var count=1;
-document.querySelector("#mute").addEventListener('click',function(){
+document.querySelector("#unmute").addEventListener('click',function(){
     if(count%2){
         play=false;
 	    mute_unmute.textContent="🔇"
